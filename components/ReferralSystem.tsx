@@ -85,7 +85,7 @@ const ReferralSystem: React.FC<ReferralSystemProps> = ({ initData, userId, start
           <ul>
             {referrals.map((referral, index) => (
               <li key={index} className="bg-gray-100 p-2 mb-2 rounded">
-                User {referral}
+                Пользователь {referral}
               </li>
             ))}
           </ul>
